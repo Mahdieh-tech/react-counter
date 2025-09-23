@@ -1,0 +1,86 @@
+/* background */
+.page-background {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
+  font-family: "Poppins", sans-serif;
+}
+
+/* Counter container (card) */
+.counter-container {
+  background: linear-gradient(135deg, #ffffff88, #ffffffcc);
+  backdrop-filter: blur(10px);
+  padding: 2rem;
+  width: 340px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: #333;
+  transition: transform 0.3s ease;
+}
+
+.counter-container:hover {
+  transform: translateY(-5px);
+}
+
+/* Title */
+.title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #5b21b6;
+}
+
+/* Display number styles */
+.count-display {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #5b21b6;
+  text-shadow: 0 3px 6px rgba(91, 33, 182, 0.3);
+}
+
+/* Button group */
+.button-group {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+/* Base button styles */
+.counter-button {
+  border: none;
+  border-radius: 10px;
+  padding: 12px 18px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  color: #fff;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Fantasy button colors */
+.counter-button.decrement {
+  background: linear-gradient(135deg, #ff6b6b, #ff8787);
+}
+
+.counter-button.reset {
+  background: linear-gradient(135deg, #60a5fa, #93c5fd);
+}
+
+.counter-button.increment {
+  background: linear-gradient(135deg, #34d399, #6ee7b7);
+}
+
+/* Hover effects */
+.counter-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Active effect */
+.counter-button:active {
+  transform: scale(0.97);
+}
