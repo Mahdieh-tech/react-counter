@@ -1,16 +1,27 @@
-# React + Vite
+📝 Project Summary – React Counter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository is a practice React project that demonstrates how to manage state with React Hooks and build a simple, interactive UI.
 
-Currently, two official plugins are available:
+⚙️ Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+State Management with Hooks: Uses useState to store and update the counter value.
 
-## React Compiler
+Interactive Buttons: Three buttons—Increment, Decrement, and Reset—each with onClick handlers.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Responsive & Modern UI: Gradient backgrounds, glassmorphism effects, hover and active animations.
 
-## Expanding the ESLint configuration
+Clean Component Structure: A single functional component (Counter.js) and a dedicated stylesheet (Counter.css).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠 Implementation Details
+
+Increment / Decrement functions adjust the count by +1 or –1.
+
+Reset sets the count back to 0.
+
+CSS applies gradients, rounded corners, shadows, and smooth transitions for a polished look.
+
+All styling lives in Counter.css, keeping the component itself clean and focused on logic.
+
+🎯 Purpose
+
+This project was created as a practice exercise to strengthen React skills—particularly hooks, event handling, and styling components. It can serve as a template or learning resource for beginners experimenting with React.
